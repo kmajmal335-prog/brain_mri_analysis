@@ -1,11 +1,11 @@
 # Task List
 
-1. ✅ Explore existing codebase structure and model architecture
+1. ✅ Enhance ML model integration for real MRI evaluation
 
-2. ✅ Create FastAPI backend with model loading and inference endpoints
+2. ✅ Fix prediction pipeline to work with trained models
 
-3. ✅ Update frontend to connect with FastAPI backend endpoints
+3. ✅ Test actual model inference with sample images
 
-4. ✅ Test the complete integration between frontend and backend
+4. ✅ Optimize image preprocessing for MRI analysis
 
 
