@@ -7,6 +7,7 @@ import Results from './components/Results';
 import Dashboard from './components/Dashboard';
 import History from './components/History';
 import Home from './pages/Home';
+import ModelLoader from './components/ModelLoader';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -74,7 +75,12 @@ function App() {
         );
       }
       
-      return <UploadPage onUploadComplete={handleUploadComplete} />;
+      return (
+        <div>
+          <ModelLoader />
+          <UploadPage onUploadComplete={handleUploadComplete} />
+        </div>
+      );
     }
 
     if (currentPage === 'history') {
